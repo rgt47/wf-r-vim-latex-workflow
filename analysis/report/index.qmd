@@ -8,7 +8,7 @@ description: >
   workflow: vimtex for LaTeX compilation, ALE for linting,
   UltiSnips for static snippet expansion, and UltiSnips
   Python interpolation for dynamic, parametric snippets.
-image: "media/images/hero.jpg"
+image: "media/images/hero.png"
 document-type: "blog"
 draft: false
 execute:
@@ -25,7 +25,7 @@ cluster-order: 6
 
 *2026-05-17 16:55 PDT*
 
-![  ](media/images/hero.jpg){.img-fluid width=80% fig-align="center"}
+![  ](media/images/hero.png){.img-fluid width=80% fig-align="center"}
 
 *Setting the stage for a unified editing environment.*
 
