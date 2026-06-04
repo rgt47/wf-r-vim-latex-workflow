@@ -10,7 +10,7 @@ description: >
   Python interpolation for dynamic, parametric snippets.
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   warning: false
@@ -173,7 +173,7 @@ download and install all declared plugins.
 
 ![A close-up of a keyboard and terminal screen showing
 configuration files being edited.
-](media/images/ambiance2.jpg){.img-fluid
+](media/images/ambiance2.png){.img-fluid
 fig-alt="A close-up photograph of a keyboard with a terminal
 showing Vim configuration in progress."}
 
@@ -825,7 +825,7 @@ followed by `Ctrl-X Ctrl-O` for omni-completion of file paths.
 
 ![A calm library reading room with natural light filtering
 through tall windows.
-](media/images/ambiance3.jpg){.img-fluid
+](media/images/ambiance3.png){.img-fluid
 fig-alt="A quiet library reading room with natural light,
 representing the reflective phase of configuration work."}
 
