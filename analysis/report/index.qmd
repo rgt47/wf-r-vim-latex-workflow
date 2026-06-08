@@ -1,6 +1,6 @@
 ---
 title: 'Extending the R-Vim Workflow: LaTeX Integration and Dynamic Snippets'
-author: Ronald 'Ryy' G. Thomas
+author: Ronald G. Thomas
 date: '2026-05-17'
 categories:
 - vim
