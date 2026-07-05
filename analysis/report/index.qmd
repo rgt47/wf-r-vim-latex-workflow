@@ -14,7 +14,7 @@ description: 'A complete configuration guide for the Vim-based R and LaTeX workf
   '
 image: media/images/hero.png
 document-type: blog
-draft: false
+draft: true
 execute:
   echo: true
   warning: false
