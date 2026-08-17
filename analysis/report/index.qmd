@@ -1,19 +1,11 @@
 ---
-title: 'Extending the R-Vim Workflow: LaTeX Integration and Dynamic Snippets'
+title: "Extending the R-Vim Workflow: LaTeX Integration and Dynamic Snippets"
 author: "Ronald G. Thomas"
-date: '2026-05-17'
-categories:
-- vim
-- r
-- python
-- workflow-construct
-description: 'A complete configuration guide for the Vim-based R and LaTeX workflow:
-  vimtex for LaTeX compilation, ALE for linting, UltiSnips for static snippet expansion,
-  and UltiSnips Python interpolation for dynamic, parametric snippets.
-
-  '
-image: media/images/hero.png
-document-type: blog
+date: "2026-05-17"
+categories: [vim, r, python, workflow-construct]
+description: "A complete configuration guide for the Vim-based R and LaTeX workflow: vimtex for LaTeX compilation, ALE for linting, UltiSnips for static snippet expansion, and UltiSnips Python interpolation for dynamic, parametric snippets."
+image: "media/images/hero.png"
+document-type: "blog"
 draft: true
 execute:
   echo: true
