@@ -49,13 +49,13 @@ typed into the first tabstop).
 
 More formally, we document the Vim-plugins layer (Layer
 6) of the Workflow Construct described in
-[post 52](/posts/52-workflow-construct/), specifically the
+[A Workflow Construct for the Modern Data Scientist](../wf-construct-overview-anchor/), specifically the
 R-plus-LaTeX subset. The plugins documented here (Nvim-R or
 zzvim-r, vimtex, UltiSnips) compose to give Vim the same
 edit-run-inspect cycle that RStudio provides for R and Skim
 provides for LaTeX, without leaving the editor. They are the
-operative artefacts that make the Editor layer
-([post 26](/posts/26-setupneovim/)) usable for the applied
+operative artifacts that make the Editor layer
+([Setting Up Neovim as a Data Science IDE](../wf-neovim-data-science-ide/)) usable for the applied
 biostatistician's daily R-and-LaTeX work.
 
 ## Motivations
@@ -977,8 +977,8 @@ the result to `snip.rv` and read tabstop values from `t[1]`,
   (companion post on Neovim plugin installation)
 - 'Configure the Command Line for Data Science Development'
   (terminal and shell configuration)
-- [Post 26: Setting up Neovim](/posts/26-setupneovim/)
-- [Post 52: The Workflow Construct](/posts/52-workflow-construct/)
+- [Setting Up Neovim as a Data Science IDE](../wf-neovim-data-science-ide/)
+- [A Workflow Construct for the Modern Data Scientist](../wf-construct-overview-anchor/)
 
 **Key resources:**
 
@@ -1074,7 +1074,7 @@ I would enjoy hearing from you if:
 ---
 
 *Rendered on 2026-05-17 at 17:08 PDT.*<br>
-*Source: ~/prj/qblog/posts/30-setupRvimtex/setupRvimtex/analysis/report/index.qmd*
+*Source: ~/prj/rgtlab/posts/wf-r-vim-latex-workflow/index.qmd*
 
 ## Related posts in this cluster
 
