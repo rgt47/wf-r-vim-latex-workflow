@@ -1089,7 +1089,6 @@ Recommended reading order:
 6. **Post 20: Extending the R-Vim Workflow with LaTeX** (this post)
 7. Post 21: [Modern CLI Replacements for the Shell Layer](../21-wf-modern-cli-tools/)
 8. Post 22: [LLM-Augmented Editing for the Workflow Construct](../22-wf-claude-code-in-shell/)
-9. Post 23: [Configuring Yabai as a Tiling Window Manager](../23-wf-yabai-tiling-window-manager/)
 10. Post 24: [A pocket terminal with ttyd and Tailscale](../24-wf-pocket-terminal-ttyd-tailscale/)
 11. Post 25: [Install Linux Mint on a MacBook Air](../25-wf-linux-mint-on-macbook/)
 
