@@ -15,6 +15,70 @@ cluster: workflow-construct
 cluster-order: 6
 ---
 
+<!-- ============================================================================
+AUTHOR PROVIDES — concrete inputs the blogger must supply
+
+Every item below maps to a placeholder in the body. Fill in this checklist
+FIRST, then paste your answers into the matching `[bracketed]` slots. Do not
+publish until every box is ticked.
+
+YAML FRONT MATTER
+  [x] title           — filled in
+  [x] date            — 2026-05-17
+  [x] categories      — vim, r, python, workflow-construct
+  [x] description     — filled in
+  [ ] image           — points to hero.png; final asset on disk is
+                         hero.jpg (media/images/README.md documents
+                         hero.jpg as the generated final)
+  [ ] draft: false    — flip when imagery reconciled and render verified
+
+NARRATIVE INPUTS
+  [x] Hook sentence   — weekend spent configuring vimtex and UltiSnips
+  [x] Pain point      — fragmented workflow across editor/LaTeX tool/terminal
+  [x] Motivations     — 7 bullets
+  [x] Objectives      — 5 numbered goals
+  [x] What is a Vim-based R and LaTeX workflow? — definition + analogy
+  [x] Practical Application walkthrough — Palmer Penguins logistic regression
+  [x] Things to Watch Out For — 7 gotchas
+  [x] Lessons Learnt  — conceptual / technical / gotchas
+  [x] Limitations     — 8 bullets
+  [x] Opportunities   — 7 numbered next-step extensions
+  [x] Wrapping Up     — conclusion + 5 emphasised points
+  [x] See Also        — related posts + key resources
+
+CONFIGURATION DELIVERABLES
+  [ ] Standalone ~/.vimrc — currently only embedded as a code block
+                            in the post body, not a file under analysis/
+  [ ] Standalone ftplugin/rmd.vim, ftplugin/r.vim — same, inline only
+  [ ] Standalone UltiSnips/rmd.snippets, UltiSnips/all.snippets —
+      named in the Reproducibility table but not present as files
+  [x] Verification commands — :echo has('python3'), UltiSnips checks
+
+VERSION MATRIX
+  [x] Tool versions noted in prose (Vim 9.0, Python 3.11, R 4.4)
+      in Reproducibility
+  [ ] Formal version-matrix table (other cluster posts use a table;
+      this post states versions in prose only)
+  [ ] Date of last verification
+
+IMAGES (4 total: hero + 3 ambiance, all in media/images/)
+  [ ] Hero image (80% width) — qmd references hero.png; final
+                                generated asset is hero.jpg
+  [ ] Ambiance image 1 (after Objectives) — qmd uses vim-logo.png
+                                             here, not an ambiance-numbered file
+  [ ] Ambiance image 2 (after Getting Started) — qmd references
+                                                  ambiance2.png; final asset is ambiance2.jpg
+  [ ] Ambiance image 3 (before Lessons Learnt) — qmd references
+                                                  ambiance3.png; final asset is ambiance3.jpg
+  [ ] media/images/README.md — documents hero.jpg correctly, but
+      its 'placeholder coffee' entries name files not present in
+      the directory; entry is stale
+
+CONTACT & METADATA
+  [x] Author name in YAML matches site author
+  [x] Social links in Let's Connect present
+============================================================================ -->
+
 *2026-05-17 16:55 PDT*
 
 ![  ](media/images/hero.png){.img-fluid width=80% fig-align="center"}
@@ -1075,6 +1139,60 @@ I would enjoy hearing from you if:
 
 *Rendered on 2026-05-17 at 17:08 PDT.*<br>
 *Source: ~/prj/rgtlab/posts/wf-r-vim-latex-workflow/index.qmd*
+
+<!-- ============================================================================
+PRE-PUBLISH QA CHECKLIST: verify each item BEFORE setting draft: false
+
+[ ] YAML
+    [x] title, date, categories, description filled in
+    [x] document-type: 'blog'
+    [ ] draft: false
+
+[x] Narrative complete (no [bracketed] placeholders remaining)
+    [x] grep '\[' index.qmd returns only legitimate code/links (verified:
+        categories array, Vim/Python syntax, no leftover prose placeholders)
+
+[ ] Configuration artifacts present and tested
+    [ ] ~/.vimrc extracted to a standalone file under analysis/configs/
+    [ ] ftplugin/rmd.vim, ftplugin/r.vim extracted to standalone files
+    [ ] UltiSnips/rmd.snippets, UltiSnips/all.snippets extracted to
+        standalone files (currently referenced in the Reproducibility
+        table but not present on disk)
+    [x] Verification commands produce the documented output
+
+[ ] Things to Watch Out For
+    [x] At least 5 gotchas, each with symptom and fix (7 present)
+
+[ ] Visual design
+    [ ] 1 hero image (width=80%, fig-align=center) — currently points
+        to hero.png; final asset is hero.jpg
+    [ ] 3 ambiance images (.img-fluid only) — qmd currently uses
+        vim-logo.png, ambiance2.png, ambiance3.png; no ambiance1
+        image is placed, and the .png references do not match the
+        .jpg finals documented in media/images/README.md
+    [ ] Captions describe actual images (not placeholder text)
+    [ ] media/images/README.md attributes every image actually used
+        (placeholder-coffee entries reference files absent from the
+        directory)
+
+[ ] Content quality
+    [x] Zero emoji
+    [x] Zero em dashes
+    [x] Single quotes in prose
+    [ ] 78-character line wrap throughout (several long code lines
+        exceed 78 characters; prose wrap not fully verified)
+
+[ ] Reproducibility
+    [ ] Version matrix 'Last verified' field filled in (versions are
+        stated in prose only, not in a dated table)
+    [x] Config code committed as inline blocks in this .qmd
+
+[ ] Render verification
+    [ ] quarto render produces clean HTML with no warnings
+    [ ] PDF renders without overflow or missing images
+    [ ] Hero image displays in /blog/ listing card
+    [ ] Internal links resolve
+============================================================================ -->
 
 ## Related posts in this cluster
 
